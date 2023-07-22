@@ -1,4 +1,4 @@
-package com.weatherforecast;
+package com.bitbucketsearch;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -52,12 +52,14 @@ public class BitbucketRepositorySearch {
         String response = sendGetRequest(url, accessToken);
         // Extract branch names from the response JSON and return as a list
         // ...
+        return null;
     }
 
     public static List<String> getFileUrls(String url, String accessToken) throws IOException {
         String response = sendGetRequest(url, accessToken);
         // Extract file URLs from the response JSON and return as a list
         // ...
+        return null;
     }
 
     public static String getFileContent(String url, String accessToken) throws IOException {
